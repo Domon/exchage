@@ -20,9 +20,9 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     let target_amount = base_amount * rate;
 
     println!("Given Amount: {:#?}", given_amount);
-    println!("Base Amount: {:#?}", base_amount);
+    println!("Base Amount: ${:#?}", base_amount);
     println!("Rate: {:#?}", rate);
-    println!("Target Amount: {:#?}", target_amount);
+    println!("Target Amount: ${:#?}", target_amount);
 
     Ok(())
 }
